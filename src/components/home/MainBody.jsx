@@ -57,29 +57,35 @@ const MainBody = React.forwardRef(
 
           <br />
           <br />
-          <div className="text-light mt-3" style={{ fontSize: '30px', textAlign: 'center', fontFamily: 'cursive', color: '#4285F4' }}>
-            Elevate your mobile app experience to new heights! 🚀
-          </div>  <br />
+          <div className="text-light mt-3" style={{ fontSize: '36px', textAlign: 'center', fontFamily: 'cursive', color: '#2c3e50', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+  Immerse Yourself in an Epic Mobile Adventure! 🌌
+</div>
+<br />
 
-          <a
-            className="btn btn-outline-light btn-lg mx-3"
-            href="https://www.fiverr.com/zebkhan336"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="button"
-            aria-label="Check my Fiverr profile"
-            style={{
-              backgroundColor: '#000000',
-              color: '#FFFFFF',
-              border: '2px solid #ffffff',
-              borderRadius: '10px',
-              padding: '10px 20px',
-              textDecoration: 'none',
-              display: 'inline-block',
-            }}
-          >
-            Discover my Fiverr journey
-          </a>
+<a
+  className="btn btn-outline-light btn-lg mx-3"
+  href=" https://www.fiverr.com/hassanshah_442"
+  target="_blank"
+  rel="noopener noreferrer"
+  role="button"
+  aria-label="Check my Fiverr profile"
+  style={{
+    backgroundColor: '#1a1a1a',
+    color: '#FFFFFF',
+    border: '2px solid #2c3e50',
+    borderRadius: '15px',
+    padding: '12px 24px',
+    textDecoration: 'none',
+    display: 'inline-block',
+    boxShadow: '0px 8px 12px rgba(0, 0, 0, 0.2)',
+    transition: 'background-color 0.3s ease-in-out',
+  }}
+>
+  Embark on My Unique Fiverr Journey
+</a>
+
+
+
 
         </Container>
       </Jumbotron>

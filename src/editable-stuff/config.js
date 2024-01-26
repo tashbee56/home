@@ -5,27 +5,31 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#2c3e50, #34495e, #7f8c8d, #2c3e50, #34495e, #7f8c8d",
-  firstName: "Zohaib",
+  gradientColors: "#2e1a3a, #751937, #3d3c4d, #273e3e, #3d3c4d, #751937, #2e1a3a"
+
+
+  ,
+
+  firstName: "Tashbee",
   middleName: "",
-  lastName: "Mustafa",
-  message: "Transforming ideas to life with seamless mobile app experience",
+  lastName: "Hassan",
+  message: "Turning concepts into reality with a smooth mobile app experience",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/zeb9988",
+      url: "https://github.com/tashbee56",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/profile.php?id=100046662125740&mibextid=ZbWKwL",
+      url: "https://www.facebook.com/tashbee.hassan?mibextid=ZbWKwL",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/zk._.147/",
+      url: "https://www.instagram.com/tash.hassan.56?igsh=MXBwbTYzNzFnaXZndA== ",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/zeb-khan-6228a1200/",
+      url: "https://www.linkedin.com/in/tashbee-hassan-9a2481247/",
     },
 
   ],
@@ -48,12 +52,12 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/pic.png"),
+  imageLink: require("../editable-stuff/p1.jpg"),
   imageSize: 375,
   message:
-    "Hello! I'm Zohaib Mustafa, a passionate Flutter app developer and freelancer with a strong foundation in Computer Science. I graduated from COMSTS with a degree in Computer Science in 2024. My expertise includes working with Flutter to build cross-platform mobile applications and utilizing Node.js and Firebase for backend development.",
+    "Passionate about crafting innovative solutions with a focus on Flutter, Node.js, MongoDB, and Firebase. Formerly a key contributor at PTCL, where I played a pivotal role in optimizing software solutions for enhanced user experience. Computer Science graduate from COMSATS University Islamabad, adept in a wide range of technologies. Eager to explore new challenges and contribute to cutting-edge techniques. Let's connect and shape the future of software development! 🌐",
 
-  resume: "https://drive.google.com/file/d/1n7ZRil38-J8JFPxJl5hCFQkybgofsNGX/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1b-ij0XeYBrch5n6Rp81W7hoP3o1I6mEn/view?usp=drivesdk",
 };
 
 // PROJECTS SECTION
@@ -64,8 +68,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "zeb9988", //i.e."johnDoe12Gh"
-  reposLength: 8,
+  gitHubUsername: "tashbee56", //i.e."johnDoe12Gh"
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -125,27 +129,23 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering/Backend Developer  or Flutter developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "Kzeb6788@gmail.com",
+  email: "tashbeehassan92@gmail.com",
 };
 const experiences = {
   show: true,
-  heading: "Professional Experiences",
+  heading: "Experiences",
   data: [
     {
-      role: 'Flutter Developer / Software Tester Level 2 Seller',
+      role: 'Flutter App Developer',
       companylogo: require('../assets/img/fi.png'),
-      date: 'June 2020 – Present',
+      date: '2021 – Present',
     },
     {
-      role: 'Full Stack Flutter Developer',
-      companylogo: require('../assets/img/fi2.png'), // Add the path to the logo for the second company
-      date: '2022 – January 2023',
-    },
-    {
-      role: 'Software Engineer Intern',
-      companylogo: require('../assets/img/fi3.png'), // Add the path to the logo for the third company
-      date: 'May 2021 – August 2021',
-    },
+      role: 'Backend Developer Intern',
+      companylogo: require('../assets/img/pp.png'), // Add the path to the logo for the second company
+      date: 'Aug 2023 – Nov 2023',
+    }
+
   ]
 };
 
